@@ -5,6 +5,7 @@ description = "Clientes de Datos Meteorológicos de Venezuela"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "dotenv>=0.9.9",
     "jupyterlab>=4.5.1",
     "pandas>=2.3.3",
     "requests>=2.32.5",
